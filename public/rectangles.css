@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: blue;
+    min-width: 100%;
+    height: 75px;
+    color: white;
+    font-size: 30px;
+}
+
+h1{
+    margin-left: 15px;
+}
+
+
+li{
+    margin: 10px;
+}
+
+ul{
+    list-style: none;
+}
+
+form{
+    margin:15px;
+}
+
+label{
+    font-size: large;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+#enterButton{
+    width: 70px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+#rectangleButton{
+    text-align: center;
+}
+
+.allButtons{
+    width: 150px;
+    height: 50px;
+}
+
+.rectangle-container {
+    padding: 30px;
+    max-width: 80%;
+    max-height: 500px;
+    overflow-y: scroll;
+    overflow-x: scroll;
+    background-color: white;
+    margin-top: 25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 500px;
+}
+
+.rectangle{
+    margin: 10px;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment 3-4</title>
+        <link rel="stylesheet" href="rectangles.css">
+        <script src="rectangles.js"></script>
+    </head>
+    <body>
+        <header>
+            <h1>Rectangle Storage</h1>
+        </header>
+        
+        
+        <main>
+            <form name="rectangleForm" method="POST" action="/addRectangle">
+                <ul>
+                    <li>
+                        <label for="width">Width(Must be a positive number):</label>
+                        <input type="number" name="width">
+                    </li>
+                    <li>
+                        <label for="height">Height(Must be a positive number):</label>
+                        <input type="number" name="height">
+                    </li>
+                    <li>
+                        <label for="color">Color:</label>
+                        <input type="color" id="colors" name="colors" value="#ffffff">
+                    </li>
+
+                    <li>
+                        <!-- <input type="button" name="enterButton" value="Enter" id="enterButton" onclick="addNewRectangle()"> -->
+                        <input type="submit" value="Enter" id="enterButton" onclick="return isValidForm();">
+                    </li>
+
+                </ul>
+                
+            </form>
+           
+            <div id="rectangleButton">
+                <input type="button" id="getRectangle" value="Display All Rectangles" class="allButtons" onclick="displayRectangles()">
+            </div>
+            
+
+            <div class="rectangle-container">
+                <!-- add rectangles here -->
+                <!-- <div style="width:500px;height:100px;border:1px solid #000;background-color: black;"></div> -->
+            </div>
+        </main>
+
+    </body>
+    
+
+
+</html>
